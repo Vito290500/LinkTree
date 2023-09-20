@@ -31,21 +31,21 @@ h4{
     background-size: cover; 
     background-position: center; 
     width: 100%; 
-    height: 100%; 
+    height: 1500px; 
 }
 .body_content{
-    transform: translate(0% , 30%);
+    transform: translate(0% , 0%);
 }
 .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 button{
     border: 0.5px solid orange;
     background-color: rgb(21, 21, 21);
     font-size: 120%;
-    width: 60%;
-    margin-left: 20%;
+    width: 640px;
     margin-bottom: 2rem;
     color: orange;
     height: 80px;
@@ -59,8 +59,7 @@ button:hover{
 .about-description {
     background-color: rgb(34, 34, 34);
     color: rgb(186, 186, 186);
-    width: 59.8%;
-    margin-left: 20%; 
+    width: 638px;
     margin-top: -2rem;
     margin-bottom: 2rem;
     height: 0; 
@@ -73,8 +72,7 @@ button:hover{
 .contact,
 .setup,
 .coffee{
-    width: 60%;
-    margin-left: 20%;
+    width: 640px;
     background-color: rgb(21, 21, 21);
     margin-bottom: 2rem;
     height: 80px;
@@ -89,8 +87,7 @@ button:hover{
     border: 0.5px solid orange;
     background-color: rgb(21, 21, 21);
     font-size: 120%;
-    width: 60%;
-    margin-left: 20%;
+    width: 640px;
     margin-bottom: 2rem;
     color: orange;
 }
@@ -125,4 +122,48 @@ button:hover{
 .contact:hover,
 .setup:hover{
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        align-items: center;  
+    }
+    .background{
+        height: 1300px;
+    }
+
+    button,
+    .about-description,
+    .contact,
+    .setup,
+    .coffee,
+    .Instagram,
+    .Github {
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    button h3,
+    .contact p,
+    .setup p,
+    .coffee p,
+    .instagram p,
+    .github p {
+        text-align: center;
+    }
+
+    .instagram img,
+    .github img {
+        display: block;
+        margin-left: 0.1rem;
+    }
+
+    .Instagram p{
+        margin-left: 6rem;
+    }
+    .Github p {
+        margin-left: 7rem;
+    
+    }
+
 }
