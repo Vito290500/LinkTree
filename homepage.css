@@ -124,12 +124,13 @@ button:hover{
     transform: scale(1.2);
 }
 
+
 @media screen and (max-width: 767px) {
     .container {
         align-items: center;  
     }
     .background{
-        height: 1300px;
+        height: 1400px;
     }
 
     button,
@@ -152,18 +153,27 @@ button:hover{
         text-align: center;
     }
 
-    .instagram img,
-    .github img {
-        display: block;
-        margin-left: 0.1rem;
+    .Instagram,
+    .Github {
+        width: 100%;
+        margin: 0 auto; 
+        text-align: center;
+        margin-bottom: 2rem;
     }
 
-    .Instagram p{
-        margin-left: 6rem;
+    .Instagram p {
+        margin-left: 6rem; 
     }
     .Github p {
         margin-left: 7rem;
-    
     }
 
+    @media screen and (max-width: 349px) {
+        .Instagram p{
+            margin-left: 3rem; /* Reset margin for the text */
+        }
+        .Github p {
+            margin-left: 3.5rem; /* Reset margin for the text */
+        }
+    }
 }
