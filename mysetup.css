@@ -1,0 +1,99 @@
+/* Default styles for larger screens */
+body {
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    color: orange;
+}
+
+h3 {
+    color: white;
+}
+
+.hover:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.mouse,
+.monitor,
+.cuffie {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.mouse div,
+.monitor div,
+.cuffie div {
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; 
+    }
+
+    .img1{
+        width: 340px;
+        height: 250px;
+    }
+    .img2{
+        width: 340px;
+        height: 250px;
+    }
+    
+    .monitor34{
+        width: 260px;
+        height: 120px;
+    }
+    .monitor24{
+        width: 70px;
+        height: 120px;
+    }
+
+    .mouser{
+        height: 120px;
+        width: 340px;
+    }   
+    .mouse{
+        display: block;
+    }
+    .dock{
+        width: 160px;
+        height: 120px;
+    }
+    .cuffielogi{
+        height: 120px;
+        width: 80px;
+    }
+    .cuffiesony{
+        height: 120px;
+        width: 80px;
+    }
+    .cuffiesamsung{
+        height: 120px;
+        width: 160px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
