@@ -27,7 +27,9 @@ h3 {
 }
 .monitor img,
 .mouse img,
-.cuffie img {
+.cuffie img,
+.rogstrix img,
+.other1 img{
     max-width: 100%; 
 }
 
@@ -46,51 +48,29 @@ h3 {
         width: 340px;
         height: 200px;
     }
-    .monitor34{
-        width: 340px;
+    .hover a img{
         height: 120px;
     }
-    .monitor24{
-        width: 80px;
-        height: 120px;
-    }
-    .mouser{
+    .monitor34,
+    .mouser,
+    .cuffiesamsung,
+    .tastiera{
         width: 340px;
-        height: 120px;
+    }
+    .art{
+        width: 260px;
     }
     .dock{
         width: 180px;
-        height: 120px;
     }
-    .cuffielogi{
-        width: 80px;
-        height: 120px;
+    .alexa{
+        width: 140px;
     }
-    .cuffiesony{
-        width: 80px;
-        height: 120px;
-    }
-    .cuffiesamsung{
-        width: 340px;
-        height: 120px;
-    }
-
+    .cuffielogi,
+    .cuffiesony,
+    .monitor24,
     .hardisck{
         width: 80px;
-        height: 120px;
-    }
-    .tastiera{
-        width: 280px;
-        height: 120px;
-    }
-
-    .alexa{
-        width: 120px;
-        height: 120px;
-    }
-    .art{
-        width: 240px;
-        height: 120px;
     }
 }
 
