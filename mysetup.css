@@ -29,6 +29,7 @@ h3 {
 }
 
 
+
 @media screen and (max-width: 768px) {
     body {
         font-size: 16px; 
@@ -40,7 +41,7 @@ h3 {
     }
     .img2{
         width: 340px;
-        height: 250px;
+        height: 200px;
     }
     
     .monitor34{
@@ -75,6 +76,65 @@ h3 {
         height: 120px;
         width: 160px;
     }
+    @media screen and (max-width: 340px) {
+        body {
+            font-size: 16px; 
+        }
+        h1{
+            margin-left: 4rem;
+        }
+        .mysetup{
+            margin-left: 0rem;
+        }
+        .img1{
+            width: 330px;
+            height: 250px;
+        }
+        .img2{
+            width: 330px;
+            height: 200px;
+        }
+        .monitor,
+        .mouse,
+        .cuffie{
+            margin-left: 0;
+        }
+        
+        .monitor34{
+            width: 250px;
+            height: 120px;
+        }
+        .monitor24{
+            width: 60px;
+            height: 120px;
+        }
+    
+        .mouser{
+            height: 120px;
+            width: 320px;
+        }   
+        .mouse{
+            display: block;
+        }
+        .dock{
+            width: 160px;
+            height: 120px;
+            margin-left: 4rem;
+        }
+        .cuffielogi{
+            height: 120px;
+            width: 70px;
+        }
+        .cuffiesony{
+            height: 120px;
+            width: 70px;
+        }
+        .cuffiesamsung{
+            height: 120px;
+            width: 160px;
+        }
+    }
+    
 }
 
 
