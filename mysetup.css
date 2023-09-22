@@ -18,7 +18,9 @@ h3 {
 }
 .monitor,
 .mouse,
-.cuffie {
+.cuffie,
+.other1,
+.rogstrix{
     display: flex;
     justify-content: center;
     margin: 0rem 0;
@@ -73,6 +75,23 @@ h3 {
         height: 120px;
     }
 
+    .hardisck{
+        width: 80px;
+        height: 120px;
+    }
+    .tastiera{
+        width: 280px;
+        height: 120px;
+    }
+
+    .alexa{
+        width: 120px;
+        height: 120px;
+    }
+    .art{
+        width: 240px;
+        height: 120px;
+    }
 }
 
 
