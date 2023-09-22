@@ -20,7 +20,8 @@ h3 {
 .mouse,
 .cuffie,
 .other1,
-.rogstrix{
+.rogstrix,
+.other2{
     display: flex;
     justify-content: center;
     margin: 0rem 0;
@@ -29,10 +30,10 @@ h3 {
 .mouse img,
 .cuffie img,
 .rogstrix img,
-.other1 img{
+.other1 img,
+.other2 img{
     max-width: 100%; 
 }
-
 
 
 
@@ -50,27 +51,6 @@ h3 {
     }
     .hover a img{
         height: 120px;
-    }
-    .monitor34,
-    .mouser,
-    .cuffiesamsung,
-    .tastiera{
-        width: 340px;
-    }
-    .art{
-        width: 260px;
-    }
-    .dock{
-        width: 180px;
-    }
-    .alexa{
-        width: 140px;
-    }
-    .cuffielogi,
-    .cuffiesony,
-    .monitor24,
-    .hardisck{
-        width: 80px;
     }
 }
 
